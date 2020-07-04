@@ -71,9 +71,45 @@ ul {
 /* header
 ============================================================ */
 
+.header {
+  position: absolute;
+  width: 100%;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2.5rem;
+}
+
 .header-wrap h1 {
   font-family: sutro-open-fill,
+    /* Adobe Fonts */
     sans-serif;
   font-weight: 400;
   font-style: normal;
+  color: #fff;
+}
+
+.header-wrap .header-nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-wrap .header-nav ul li {
+  padding: 0 1.3rem;
+}
+
+.header-wrap .header-nav ul li a {
+  color: #fff;
+}
+
+/* .main-visual
+============================================================ */
+
+.main-visual {
+  background: url(../img/main-visual.png);
+  background-size: cover;
+  height: 100vh;
 }
