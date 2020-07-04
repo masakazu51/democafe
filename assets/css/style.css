@@ -67,3 +67,13 @@ ul {
   font-style: normal;
   font-weight: normal;
 }
+
+/* header
+============================================================ */
+
+.header-wrap h1 {
+  font-family: sutro-open-fill,
+    sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
