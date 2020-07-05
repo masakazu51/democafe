@@ -89,6 +89,7 @@ ul {
     sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 1.5rem;
   color: #fff;
 }
 
@@ -98,11 +99,12 @@ ul {
 }
 
 .header-wrap .header-nav ul li {
-  padding: 0 1.3rem;
+  padding: 0 1rem;
 }
 
 .header-wrap .header-nav ul li a {
   color: #fff;
+  font-size: 0.875rem;
 }
 
 /* .main-visual
@@ -112,4 +114,9 @@ ul {
   background: url(../img/main-visual.png);
   background-size: cover;
   height: 100vh;
+}
+
+.main-visual-text {
+  color: #fff;
+
 }
