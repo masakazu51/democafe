@@ -121,14 +121,31 @@ ul {
 .main-visual {
   background: url(../img/main-visual.png);
   background-size: cover;
+  background-position: center center;
   height: 100vh;
 }
 
 .main-visual-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
-  bottom: 0;
-  font: Regular 52px Arial Black;
+  left: 4.8vw;
+  bottom: 4.5vw;
+  width: 37.3vw;
+  height: 21.8vw;
+  border: 3px solid #CAB5AB;
+}
+
+.main-visual-text-wrap {
+  font-size: 3.61vw;
+  line-height: 5.46vw;
   color: #fff;
+  letter-spacing: -3px;
+}
+
+.main-visual-text-wrap span {
+  color: #98755C;
 
 }
 
