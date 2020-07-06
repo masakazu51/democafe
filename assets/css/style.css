@@ -17,6 +17,7 @@
 
 body {
   font-family: "Arial Black", sans-serif;
+  background: #F1EDE5;
 }
 
 p {
@@ -78,11 +79,34 @@ ul {
 /* .common
 ============================================================ */
 
+.com-inner {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
 .com-title {
+  position: relative;
   font-family: brim-narrow-combined-1,
     sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 3.375rem;
+  color: #725743;
+}
+
+.com-more-link {
+  background-color: #98755C;
+  height: 36px;
+  width: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.com-more-link a {
+  color: #E8E7E4;
+
 }
 
 /* header
@@ -161,4 +185,87 @@ ul {
 
 .about {
   height: 100vh;
+}
+
+/* .about
+============================================================ */
+
+.about {
+  position: relative;
+  padding: 178px 0;
+}
+
+.about-bg {
+  background-color: #E8E3E0;
+  position: absolute;
+  top: 360px;
+  width: 100%;
+  height: 400px;
+  z-index: -1;
+}
+
+.about .com-title {
+  margin: 0 0 60px 0;
+  text-align: right;
+}
+
+.about .com-title:after {
+  content: '';
+  position: absolute;
+  right: -50px;
+  bottom: -5px;
+  display: inline-block;
+  width: 110px;
+  height: 2px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #725743;
+  border-radius: 10px;
+}
+
+.about-image {
+  position: relative;
+}
+
+.about-content-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about .about-image-top {
+  width: 286px;
+}
+
+.about .about-image-bottom {
+  position: absolute;
+  width: 299px;
+  top: 186px;
+  left: 193px;
+}
+
+.about .about-image-text {
+  position: absolute;
+  color: #725743;
+  top: 320px;
+  font-family: modesto-open-shadow,
+    sans-serif;
+  font-size: 3.375rem;
+}
+
+.about .about-text {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 13px;
+  color: #535353;
+  line-height: 1.7;
+}
+
+.about .about-text-top {
+  margin: 0 0 60px 0;
+}
+
+.about .about-text-bottom {
+  margin: 0 0 60px 0;
 }
