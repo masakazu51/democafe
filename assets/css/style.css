@@ -195,6 +195,10 @@ ul {
   padding: 178px 0;
 }
 
+.about .com-inner {
+  padding: 0 50px;
+}
+
 .about-bg {
   background-color: #E8E3E0;
   position: absolute;
@@ -260,12 +264,10 @@ ul {
   font-size: 13px;
   color: #535353;
   line-height: 1.7;
+  letter-spacing: 1px;
 }
 
-.about .about-text-top {
-  margin: 0 0 60px 0;
-}
-
+.about .about-text-top,
 .about .about-text-bottom {
-  margin: 0 0 60px 0;
+  margin: 0 0 55px 0;
 }
